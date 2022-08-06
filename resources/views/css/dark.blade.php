@@ -25,6 +25,10 @@
         box-shadow: 0 1rem 3rem var(--color-dark-shadow) !important;
     }
 
+    .shadow {
+        box-shadow: 0 .55rem 1rem var(--color-dark-shadow) !important;
+    }
+
     .shadow-sm {
         box-shadow: 0 .125rem .25rem var(--color-dark-shadow) !important;
     }
