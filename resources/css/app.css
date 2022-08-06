@@ -64,6 +64,7 @@ body {
   margin: 0.5em;
 }
 
+
 @media only screen and (min-width: 768px) {
 
   #main_card {
@@ -72,7 +73,7 @@ body {
 
   #pills-div {
     width: 85vw;
-    max-height: 65vh;
+    height: 65vh;
   }
 
   .nav-link {
@@ -85,7 +86,7 @@ body {
 
   #pills-div {
     width: 75vw;
-    max-height: 55vh;
+    height: 55vh;
   }
 
 }
@@ -97,6 +98,18 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+  }
+
+}
+
+@media only screen and (max-height: 449px) {
+  
+  #pills-div {
+    height: 85vh;
+  }
+
+  .card:not(#main_card) {
+    padding: 0.25em !important;
   }
 
 }

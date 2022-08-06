@@ -16,7 +16,7 @@
 </head>
 
 <body class="dark">
-    <div class="card shadow-lg" id="main_card">
+    <div class="card shadow" id="main_card">
         <div id="pills-div" class="d-flex">
 
             <x-nav-pills class="px-1" id="v-pills-tab"></x-nav-pills>
