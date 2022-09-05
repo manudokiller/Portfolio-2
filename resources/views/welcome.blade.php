@@ -15,45 +15,19 @@
 
 </head>
 
-<body class="dark">
+<body>
     <div class="card shadow" id="main_card">
         <div id="pills-div" class="d-flex">
-
             <x-nav-pills class="px-1" id="v-pills-tab"></x-nav-pills>
             <x-nav-pills id="h-pills-tab"></x-nav-pills>
-
             <div class="tab-content d-flex m-auto" id="pills-tabContent">
-                <x-tab-pane active name="profile">
-                    <img src="{{ asset('storage/avatar.svg') }}" class="rounded mx-auto d-block img-fluid"
-                        style="max-height: 20vh" alt="Manudo Killer">
-                    <div class="text-center">
-                        <h2>Manudo Killer</h2>
-                        <span>Developer</span>
-                        <h3>Who am I?</h3>
-                        <span>I'm a freelancer based in Costa Rica. I help convert a vision and an
-                            idea into meaningful and useful products.</span>
-                    </div>
-                </x-tab-pane>
-                <x-tab-pane name="skills">
-                    <div class="row justify-content-center">
-                        @foreach ($skills as $skill)
-                            <div class="col-md-3 col-4 py-2">
-                                <x-skill-card :icon="$skill['icon']">{{ $skill['name'] }}</x-skill-card>
-                            </div>
-                        @endforeach
-                    </div>
-                </x-tab-pane>
-                <x-tab-pane name="projects">
-                    My Projects
-                </x-tab-pane>
-                <x-tab-pane name="contact_me">
-                    <a href="https://www.twitch.tv/manudokiller_"><i class="fa-brands fa-twitch"></i>Twitch</a>
-                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i> YouTube</a>
-                </x-tab-pane>
+                <x-tab-pane name="profile" active></x-tab-pane>
+                <x-tab-pane name="skills"></x-tab-pane>
+                <x-tab-pane name="projects"></x-tab-pane>
+                <x-tab-pane name="contact_me"></x-tab-pane>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
