@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/c179082552.js" crossorigin="anonymous"></script>
 
     @include('css.dark')
+    @include('css')
 
 </head>
 

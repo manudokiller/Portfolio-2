@@ -40,4 +40,9 @@
     .nav-link.shadow-sm.active {
         box-shadow: 0 .125rem .25rem var(--color-light-shadow) !important;
     }
+
+    .highlight {
+        color: var(--color-light-shadow);
+    }
+
 </style>

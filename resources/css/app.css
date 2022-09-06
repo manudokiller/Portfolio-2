@@ -64,6 +64,40 @@ body {
   margin: 0.5em;
 }
 
+#profile_img {
+    max-height: 150px;
+    border-radius: var(--bs-border-radius-pill);
+    margin: 1em;
+}
+
+#profile_pane {
+    display: inline;
+}
+
+#profile_description {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.card-title {
+    padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 667px) {
+
+    #profile_pane {
+        display: flex;
+        align-items: center;
+        text-align: initial;
+    }
+
+    #profile_img {
+        max-height: 200px;
+    }
+
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -100,10 +134,23 @@ body {
     align-items: center;
   }
 
+    .nav-link {
+        padding: 0.25em;
+    }
+
+    #profile_img {
+        border-radius: var(--bs-border-radius-pill);
+        margin: 0.5em;
+    }
+
+    .card-title {
+        padding-bottom: 0.5em;
+    }
+
 }
 
 @media only screen and (max-height: 449px) {
-  
+
   #pills-div {
     height: 85vh;
   }
