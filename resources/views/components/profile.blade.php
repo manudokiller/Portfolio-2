@@ -7,6 +7,6 @@
     <div id="profile_description">
         <span>HI THERE! I'M</span>
         <h2 id="profile_name"><span class="highlight">Esteban</span> Salas</h2>
-        <h4>A <span class="highlight">full stack developer</span> passionate <br> about creating interactive applications <br> and expiriences on the web</h4>
+        <h4>A <span class="highlight">full stack developer</span> passionate <br> about creating interactive applications <br> and experiences on the web</h4>
     </div>
 </div>
