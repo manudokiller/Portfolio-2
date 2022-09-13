@@ -5,7 +5,7 @@
         class="img-fluid shadow-sm"
         alt="photo">
     <div id="profile_description">
-        <span>HI THERE! I'M</span>
+        <span>Hi there! I'm</span>
         <h2 id="profile_name"><span class="highlight">Esteban</span> Salas</h2>
         <h4>A <span class="highlight">full stack developer</span> passionate <br> about creating interactive applications <br> and experiences on the web</h4>
     </div>

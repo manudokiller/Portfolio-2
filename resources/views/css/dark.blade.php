@@ -8,11 +8,13 @@
         border-color: var(--color-dark-txt) !important;
     }
 
-    .nav-link {
+    .nav-link,
+    .contact-card {
         color: var(--color-dark-txt) !important;
     }
 
-    .nav-link:hover {
+    .nav-link:hover,
+    .contact-card {
         color: var(--color-dark-txt) !important;
     }
 
@@ -33,8 +35,14 @@
         box-shadow: 0 .125rem .25rem var(--color-dark-shadow) !important;
     }
 
-    .nav-link.shadow-sm {
+    .nav-link.shadow-sm,
+    .contact-card.shadow-sm {
         box-shadow: 0 .125rem .25rem var(--color-dark-txt) !important;
+    }
+
+    .nav-link.shadow-sm:hover,
+    .contact-card.shadow-sm:hover {
+        box-shadow: 0 .125rem .25rem var(--color-dark-shadow) !important;
     }
 
     .nav-link.shadow-sm.active {

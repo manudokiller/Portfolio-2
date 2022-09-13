@@ -24,7 +24,9 @@
             <div class="tab-content d-flex m-auto" id="pills-tabContent">
                 <x-tab-pane name="profile" active></x-tab-pane>
                 <x-tab-pane name="skills"></x-tab-pane>
+                <!--
                 <x-tab-pane name="projects"></x-tab-pane>
+                -->
                 <x-tab-pane name="contact_me"></x-tab-pane>
             </div>
         </div>
