@@ -15,7 +15,7 @@ $contacts = [
     [
         'name' => 'LinkedIn',
         'icon' => 'fa-brands fa-linkedin-in',
-        'url' => 'https://www.linkedin.com/in/esteban-enrique-salas-guzm%C3%A1n-862b8a101/',
+        'url' => 'https://www.linkedin.com/in/esteban-enrique-s-862b8a101/',
         'description' => 'Here you can write me'
     ]
 ];
